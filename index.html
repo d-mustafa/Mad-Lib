@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html id="the-html">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Insert your script tag below here -->
+  </head>
+  <body>
+    <h1 id="colorh1">Mad Lib</h1>
+    <hr />
+
+    <div id="instructions">
+      <h2 id="colorh2">Mad Lib Instructions</h2>
+      <p>
+        Fill in all of the input boxes, then click the
+        <span class="madlib" id="colorp">"Mad Lib"</span> button.
+      </p>
+    </div>
+
+    <ul>
+      <li>
+        Plural Noun:
+        <input
+          id="plural-noun"
+          type="text"
+          placeholder="Ducks"
+          class="inputcolor"
+        />
+      </li>
+      <li>
+        Adjective:
+        <input
+          id="adjective"
+          type="text"
+          placeholder="red"
+          class="inputcolor"
+        />
+      </li>
+      <li>
+        Present Tense Verb:
+        <input
+          id="present-tense-verb"
+          type="text"
+          placeholder="walk"
+          class="inputcolor"
+        />
+      </li>
+      <li>
+        Noun:
+        <input id="noun" type="text" placeholder="house" class="inputcolor" />
+      </li>
+      <li>
+        Second Noun:
+        <input
+          id="second-noun"
+          type="text"
+          placeholder="lion"
+          class="inputcolor"
+        />
+      </li>
+      <li>
+        Active Verb:
+        <input
+          id="active-verb"
+          type="text"
+          placeholder="running"
+          class="inputcolor"
+        />
+      </li>
+    </ul>
+
+    <hr />
+
+    <button id="mad-lib-btn">Mad Lib</button>
+    <button id="mad-lib-2-btn">Mad Lib <b>Two</b></button>
+
+    <h2 id="mad-lib-h2" class="orangered">Mad Lib Results</h2>
+
+    <p class="yellowBorder" id="end-result"></p>
+
+    <!-- Load JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
